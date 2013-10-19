@@ -1,0 +1,21 @@
+[user]
+	name = User name
+	email = email
+[core]
+	excludesfile = $HOME/.gitignore_global
+    editor = vim
+[color]
+    diff = auto
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    st = status
+    ci = commit
+    wc = whatchanged
+    forget = rm --cached
+    pt = push --tags
+    df = diff --no-ext-diff
+    dt = diff
+    rw = commit --amend
+    rb = reset --hard HEAD
+[diff]
+    external = "~/git_vimdiff_wrapper"
