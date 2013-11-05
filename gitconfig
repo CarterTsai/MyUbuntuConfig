@@ -1,8 +1,8 @@
 [user]
-	name = User name
+	name = Username
 	email = email
 [core]
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = /home/ham/.gitignore_global
     editor = vim
 [color]
     diff = auto
@@ -17,5 +17,6 @@
     dt = diff
     rw = commit --amend
     rb = reset --hard HEAD
-[diff]
-    external = "~/git_vimdiff_wrapper"
+    slog = shortlog
+    rlog = reflog
+    bla = blame
