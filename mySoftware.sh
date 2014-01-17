@@ -87,6 +87,9 @@ sudo apt-get install qemu bridge-utils uml-utilities vtun
 # qemu 
 sudo apt-get install gtkwave
 
+# axel ( A light download accelerator for Linux.)
+sudo apt-get install axel
+
 # patch config.fish
 patch -p1 $HOME/.config/config.fish < config.fish.diff
 
