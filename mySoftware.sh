@@ -90,6 +90,11 @@ sudo apt-get install gtkwave
 # axel ( A light download accelerator for Linux.)
 sudo apt-get install axel
 
+# numix-icon-theme
+sudo apt-add-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+
 # patch config.fish
 patch -p1 $HOME/.config/config.fish < config.fish.diff
 
