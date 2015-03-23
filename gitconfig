@@ -21,3 +21,4 @@
     slog = shortlog
     rlog = reflog
     bla = blame
+    amend = commit -a --amen
