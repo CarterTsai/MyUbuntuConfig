@@ -16,6 +16,7 @@
     pt = push --tags
     df = diff --no-ext-diff
     dt = diff
+    dn = diff --name-only
     rw = commit --amend
     rb = reset --hard HEAD
     slog = shortlog
